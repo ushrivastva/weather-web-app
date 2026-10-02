@@ -89,7 +89,7 @@ cd weather-web-app
 ```bash
 python -m venv .venv
 ```
-*** Activate it on Windows: ***
+** Activate it on Windows: **
 ```bash
 .venv\Scripts\activate
 ```
@@ -102,7 +102,7 @@ or install the dependencies with pip:
 ```bash
 pip install -r requirements.txt
 ```
-# **🔑 Enviroment Variables**
+ **🔑 Enviroment Variables**
 Create a `.env` file or configure the enviroment variable directly.
 
 ```bash
@@ -112,7 +112,7 @@ The API key should **never be committed to GitHub.**
 
 Make sure `.env` is included in `.gitignore`.
 
-#**▶️Run the Application**
+**▶️Run the Application**
 Start the FastAPI server:
 ```bash
 uvicorn backend.weather:app --reload
@@ -121,7 +121,7 @@ Then Open:
 ```bash
 http://127.0.0.1:800
 ```
-##**📍API Example**
+**📍API Example**
 Weather endpoint:
 ```bash
 GET /weather
@@ -134,8 +134,8 @@ The application can also work with geographic coordinates:
 ```bash
 /weather?latitude=28.6139&longitude=77.2090
 ```
-#**📚What I Learned**
-##Building this project helped me understand:
+**📚What I Learned**
+*Building this project helped me understand:*
 • FastAPI application structure
 • Creating API routes 
 • Handling query parameters
@@ -144,8 +144,8 @@ The application can also work with geographic coordinates:
 • Working with JSON responses
 • Git and GitHub workflow
 
-#**🧑‍💻Author**
-##**USHRIVASTVA**
+**🧑‍💻Author**
+**USHRIVASTVA**
 Aspiring Software Engineer focused on:
 
 • Python
@@ -155,29 +155,6 @@ Aspiring Software Engineer focused on:
 • Backend Engineering
 • AI/ML
 
-#**🧾License**
+**🧾License**
 ##This project is for learning and educational purposes.
 
-### One important correction
-
-Your current project screenshot showed **`pyproject.toml` and `uv.lock`**, but I didn't see a `requirements.txt`. So if you don't actually have `requirements.txt`, **don't include the pip installation section**.
-
-You can simplify that part to:
-
-```markdown
-### 3. Install dependencies
-```
-```bash
-uv sync
-```
-Also, don't claim features such as PostgreSQL, automatic location, authentication, or forecasting **until you've actually implemented them**. The README should describe what your current project really does.
-
-### After changing the README
-
-Run:
-
-```bash
-git add README.md
-git commit -m "Improve project documentation"
-git push
-```
