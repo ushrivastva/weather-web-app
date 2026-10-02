@@ -134,8 +134,8 @@ The application can also work with geographic coordinates:
 ```bash
 /weather?latitude=28.6139&longitude=77.2090
 ```
-**📚What I Learned**
-*Building this project helped me understand:*
+#📚What I Learned
+##Building this project helped me understand:
 • FastAPI application structure
 • Creating API routes 
 • Handling query parameters
@@ -144,8 +144,8 @@ The application can also work with geographic coordinates:
 • Working with JSON responses
 • Git and GitHub workflow
 
-**🧑‍💻Author**
-**USHRIVASTVA**
+#🧑‍💻Author
+##USHRIVASTVA
 Aspiring Software Engineer focused on:
 
 • Python
@@ -155,6 +155,6 @@ Aspiring Software Engineer focused on:
 • Backend Engineering
 • AI/ML
 
-**🧾License**
+#🧾License
 ##This project is for learning and educational purposes.
 
