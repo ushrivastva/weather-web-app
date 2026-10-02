@@ -1,0 +1,20 @@
+[project]
+name = "wheather"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "UJJAWAL SHRIVASTVA", email = "ujjwal2808@outlook.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+wheather = "wheather:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
