@@ -112,7 +112,7 @@ The API key should **never be committed to GitHub.**
 
 Make sure `.env` is included in `.gitignore`.
 
-**▶️Run the Application**
+##▶️Run the Application
 Start the FastAPI server:
 ```bash
 uvicorn backend.weather:app --reload
@@ -134,7 +134,7 @@ The application can also work with geographic coordinates:
 ```bash
 /weather?latitude=28.6139&longitude=77.2090
 ```
-#📚What I Learned
+#**📚What I Learned**
 ##Building this project helped me understand:
 • FastAPI application structure
 • Creating API routes 
@@ -144,7 +144,7 @@ The application can also work with geographic coordinates:
 • Working with JSON responses
 • Git and GitHub workflow
 
-#🧑‍💻Author
+#**🧑‍💻Author**
 ##USHRIVASTVA
 Aspiring Software Engineer focused on:
 
