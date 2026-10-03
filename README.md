@@ -102,7 +102,8 @@ or install the dependencies with pip:
 ```bash
 pip install -r requirements.txt
 ```
- **🔑 Enviroment Variables**
+ ##🔑 Enviroment Variables
+ 
 Create a `.env` file or configure the enviroment variable directly.
 
 ```bash
@@ -113,6 +114,7 @@ The API key should **never be committed to GitHub.**
 Make sure `.env` is included in `.gitignore`.
 
 ##▶️Run the Application
+
 Start the FastAPI server:
 ```bash
 uvicorn backend.weather:app --reload
@@ -121,21 +123,24 @@ Then Open:
 ```bash
 http://127.0.0.1:800
 ```
-**📍API Example**
-Weather endpoint:
+##📍API Example
+
+###Weather endpoint:
 ```bash
 GET /weather
 ```
-Example using a city:
+###Example using a city:
 ```bash
 /weather?cityInput=Delhi
 ```
-The application can also work with geographic coordinates:
+###Using geographic coordinates:
 ```bash
 /weather?latitude=28.6139&longitude=77.2090
 ```
-#**📚What I Learned**
-##Building this project helped me understand:
+##📚What I Learned
+
+###Building this project helped me understand:
+
 • FastAPI application structure
 • Creating API routes 
 • Handling query parameters
@@ -144,8 +149,10 @@ The application can also work with geographic coordinates:
 • Working with JSON responses
 • Git and GitHub workflow
 
-#**🧑‍💻Author**
-##USHRIVASTVA
+##🧑‍💻Author
+
+###USHRIVASTVA
+
 Aspiring Software Engineer focused on:
 
 • Python
@@ -155,6 +162,7 @@ Aspiring Software Engineer focused on:
 • Backend Engineering
 • AI/ML
 
-#🧾License
-##This project is for learning and educational purposes.
+##🧾License
+
+This project is for learning and educational purposes.
 
