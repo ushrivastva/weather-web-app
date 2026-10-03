@@ -89,7 +89,7 @@ cd weather-web-app
 ```bash
 python -m venv .venv
 ```
-** Activate it on Windows: **
+**Activate it on Windows:**
 ```bash
 .venv\Scripts\activate
 ```
@@ -141,13 +141,13 @@ GET /weather
 
 ### Building this project helped me understand:
 
-• FastAPI application structure
-• Creating API routes 
-• Handling query parameters
-• Calling external APIs with HTTPX
-• Frontend and Backend communication
-• Working with JSON responses
-• Git and GitHub workflow
+- FastAPI application structure
+- Creating API routes 
+- Handling query parameters
+- Calling external APIs with HTTPX
+- Frontend and Backend communication
+- Working with JSON responses
+- Git and GitHub workflow
 
 ## 🧑‍💻Author
 
@@ -155,12 +155,12 @@ GET /weather
 
 Aspiring Software Engineer focused on:
 
-• Python
-• FastAPI
-• PostgreSQL
-• System Design
-• Backend Engineering
-• AI/ML
+- Python
+- FastAPI
+- PostgreSQL
+- System Design
+- Backend Engineering
+- AI/ML
 
 ## 🧾License
 
