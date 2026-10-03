@@ -102,7 +102,7 @@ or install the dependencies with pip:
 ```bash
 pip install -r requirements.txt
 ```
- ##🔑 Enviroment Variables
+ ## 🔑 Enviroment Variables
  
 Create a `.env` file or configure the enviroment variable directly.
 
@@ -113,7 +113,7 @@ The API key should **never be committed to GitHub.**
 
 Make sure `.env` is included in `.gitignore`.
 
-##▶️Run the Application
+## ▶️Run the Application
 
 Start the FastAPI server:
 ```bash
@@ -123,23 +123,23 @@ Then Open:
 ```bash
 http://127.0.0.1:800
 ```
-##📍API Example
+## 📍API Example
 
-###Weather endpoint:
+### Weather endpoint:
 ```bash
 GET /weather
 ```
-###Example using a city:
+### Example using a city:
 ```bash
 /weather?cityInput=Delhi
 ```
-###Using geographic coordinates:
+### Using geographic coordinates:
 ```bash
 /weather?latitude=28.6139&longitude=77.2090
 ```
-##📚What I Learned
+## 📚What I Learned
 
-###Building this project helped me understand:
+### Building this project helped me understand:
 
 • FastAPI application structure
 • Creating API routes 
@@ -149,9 +149,9 @@ GET /weather
 • Working with JSON responses
 • Git and GitHub workflow
 
-##🧑‍💻Author
+## 🧑‍💻Author
 
-###USHRIVASTVA
+### USHRIVASTVA
 
 Aspiring Software Engineer focused on:
 
@@ -162,7 +162,7 @@ Aspiring Software Engineer focused on:
 • Backend Engineering
 • AI/ML
 
-##🧾License
+## 🧾License
 
 This project is for learning and educational purposes.
 
